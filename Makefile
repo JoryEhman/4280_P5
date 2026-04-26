@@ -22,4 +22,4 @@ codeGen.o: codeGen.cpp
 	$(CC) $(CFLAGS) -c codeGen.cpp
 
 clean:
-	rm -f $(OBJS) $(TARGET)
+	rm -f $(OBJS) $(TARGET) *.txt *.asm
